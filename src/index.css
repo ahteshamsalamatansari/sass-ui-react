@@ -13,19 +13,19 @@
   --color-5: #858DFF;
   --color-6: #FF98E2;
   --stroke-1: #26242C;
-  --n-1: #FFFFFF;
-  --n-2: #CAC6DD;
-  --n-3: #ADA8C3;
-  --n-4: #757185;
-  --n-5: #3F3A52;
-  --n-6: #252134;
-  --n-7: #15131D;
-  --n-8: #0E0C15;
-  --n-9: #474060;
-  --n-10: #43435C;
-  --n-11: #1B1B2E;
-  --n-12: #2E2A41;
-  --n-13: #6C7275;
+  --color-n-1: #FFFFFF;
+  --color-n-2: #CAC6DD;
+  --color-n-3: #ADA8C3;
+  --color-n-4: #757185;
+  --color-n-5: #3F3A52;
+  --color-n-6: #252134;
+  --color-n-7: #15131D;
+  --color-n-8: #0E0C15;
+  --color-n-9: #474060;
+  --color-n-10: #43435C;
+  --color-n-11: #1B1B2E;
+  --color-n-12: #2E2A41;
+  --color-n-13: #6C7275;
 
   /* Font families */
   --font-sora: "Sora", sans-serif;
