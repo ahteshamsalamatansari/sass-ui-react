@@ -70,8 +70,8 @@
 
   body {
     font-family: var(--font-sora);
-    background: var(--n-8);
-    color: var(--n-1);
+    background: var(--color-n-8);
+    color: var(--color-n-1);
   }
 }
 
