@@ -1,3 +1,4 @@
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
@@ -8,10 +9,21 @@ import { useState } from "react";
 const Header = () => {
   const pathName = useLocation();
   const [openNavigation, setopenNavigation] = useState(false);
-  const toggleNavigation = () => setopenNavigation(!openNavigation);
+  const toggleNavigation = () => {
+    setopenNavigation(!openNavigation);
+    if (!openNavigation) {
+      // Disable scrolling when the navigation menu is opened
+      disablePageScroll();
+    } else {
+      // Enable scrolling when the navigation menu is closed
+      enablePageScroll();
+    }
+  };
   const handleClick = () => {
     if (!openNavigation) return;
-  }
+    enablePageScroll();
+    setopenNavigation(false);
+  };
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50  bg-n-8/90 backdrop-blur-sm border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
