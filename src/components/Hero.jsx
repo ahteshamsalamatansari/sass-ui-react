@@ -1,5 +1,6 @@
-import Section from "./Section"
-import curve from "../assets/hero/curve.png"
+import Section from "./Section";
+import { curve, robot } from "../assets";
+import Button from "./Button";
 const Hero = () => {
   return (
     <Section
@@ -27,6 +28,20 @@ const Hero = () => {
             Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app.
           </p>
+          <Button href="/pricing" white>
+            Get Started
+          </Button>
+        </div>
+        <div className="realative max-w-[23rem] mx-auto md:mx-w-5xl xl:mb-24">
+           <div className="realative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+              <div className="relative bg-n-8 rounded-[1rem]">
+                 <div className="h-[1.4rem] bg-n-8 rounded-t-[0.9rem]">
+                    <div>
+                      <img src={robot} className="w-full" width={1440} height={1800} alt="" />
+                    </div>
+                  </div> 
+              </div>
+           </div>
         </div>
       </div>
     </Section>
