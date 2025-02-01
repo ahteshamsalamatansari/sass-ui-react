@@ -89,6 +89,7 @@ const Hero = () => {
       </div>
       <BottomLine />
     </Section>
+    //Hero section is completed here with many resusable resources.
   );
 };
 
