@@ -249,6 +249,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    
   },
   {
     id: "1",
@@ -258,6 +259,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    
   },
   {
     id: "2",

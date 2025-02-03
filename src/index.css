@@ -199,6 +199,14 @@
       var(--color-2)
     );
   }
+  @layer utilities {
+    .bg-radial-gradient {
+      background-image: radial-gradient(
+        var(--tw-gradient-from),
+        var(--tw-gradient-to, rgba(40, 32, 108, 0)) var(--tw-gradient-stop-position, 70%)
+      );
+    }
+  }
 
   /* Special utilities */
   .tap-highlight-color {
