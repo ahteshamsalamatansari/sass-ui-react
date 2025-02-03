@@ -26,8 +26,8 @@ const Benefits = () => {
                     </div>
                     {item.light && <GradientLight/>}
                     <div className='absolute inset-0.5 bg-n-8' style={{clipPath: "url(#benefits)"}}> 
-                      <div>
-                        
+                      <div className=''>
+                        {item.imageUrl && <img src={item.imageUrl} width={380} height={302} alt={item.title} className='w-full h-full object-cover' />}
                       </div>
                     </div>
                   </div>
