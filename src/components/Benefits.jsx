@@ -1,4 +1,5 @@
 import Section from './Section';
+import Heading from './Heading';
 const Benefits = () => {
   return (
    <Section id="features">
