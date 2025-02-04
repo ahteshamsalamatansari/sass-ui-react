@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { collabContent } from "../constants";
+import { collabContent, collabText } from "../constants";
 import { check } from "../assets";
 import Button from './Button';
 const Collaboration = () => {
@@ -24,6 +24,11 @@ const Collaboration = () => {
             ))}
           </ul>
           <Button>Try it now</Button>
+        </div>
+        <div className="lg:ml-auto xl:w-[32rem]">
+                <p>
+                    {collabText}
+                </p>
         </div>
       </div>
     </Section>
