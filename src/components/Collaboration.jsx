@@ -2,7 +2,7 @@ import Section from "./Section";
 import { collabApps, collabContent, collabText } from "../constants";
 import { brainwaveSymbol, check } from "../assets";
 import Button from "./Button";
-import {LeftCurve, RightCurve} from "./design/Collaboration"; 
+import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses>
@@ -67,8 +67,8 @@ const Collaboration = () => {
                 </li>
               ))}
             </ul>
-            <LeftCurve/>
-            <RightCurve/>
+            <LeftCurve />
+            <RightCurve />
           </div>
         </div>
       </div>
