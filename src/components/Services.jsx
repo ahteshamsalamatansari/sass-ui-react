@@ -1,7 +1,10 @@
 import Section from './Section';
 const Services = () => {
   return (
-    <div></div>
+    <Section id="How-to-use">
+        
+    </Section>
+
   )
 }
 
