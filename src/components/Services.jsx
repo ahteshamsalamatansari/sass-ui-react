@@ -21,6 +21,10 @@ const Services = () => {
               alt="Smartest AI"
             />
           </div>
+          <div className="relative z-1 max-w-[17rem] h-auto">
+            <h4>Smartest AI</h4>
+            <p>Brainwave unlocks the potential of AI-powered applications</p>
+          </div>
         </div>
       </div>
     </Section>
