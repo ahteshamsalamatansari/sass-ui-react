@@ -23,13 +23,13 @@ const Services = () => {
             />
           </div>
           <div className="relative z-1 max-w-[17rem] h-auto">
-            <h4>Smartest AI</h4>
-            <p>Brainwave unlocks the potential of AI-powered applications</p>
+            <h4 className="h-4 mb-4">Smartest AI</h4>
+            <p className="body-2 mb-[13rem] text-n-3">Brainwave unlocks the potential of AI-powered applications</p>
             <ul className="body-2 ">
               {brainwaveServices.map((item,index)=>(
-                <li key={index}>
-                  <img src={check} alt="" />
-                  <p></p>
+                <li key={index} className="flex items-start py-4 border-t border-n-6">
+                  <img width={24} height={24} src={check} alt="" />
+                  <p className="ml-4">{item}</p>
                 </li>
               ))}
             </ul>
