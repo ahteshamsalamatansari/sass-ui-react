@@ -1,6 +1,7 @@
-import { service1 } from "../assets";
+import { check, service1 } from "../assets";
 import Heading from "./Heading";
 import Section from "./Section";
+import {brainwaveServices, brainwaveServicesIcons} from '../constants';
 const Services = () => {
   return (
     <Section id="How-to-use">
@@ -24,6 +25,14 @@ const Services = () => {
           <div className="relative z-1 max-w-[17rem] h-auto">
             <h4>Smartest AI</h4>
             <p>Brainwave unlocks the potential of AI-powered applications</p>
+            <ul className="body-2 ">
+              {brainwaveServices.map((item,index)=>(
+                <li key={index}>
+                  <img src={check} alt="" />
+                  <p></p>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
