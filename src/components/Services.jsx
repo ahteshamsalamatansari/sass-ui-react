@@ -2,6 +2,7 @@ import { check, service1 } from "../assets";
 import Heading from "./Heading";
 import Section from "./Section";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import Generating from "./Generating";
 const Services = () => {
   return (
     <Section id="How-to-use">
@@ -38,6 +39,7 @@ const Services = () => {
                 ))}
               </ul>
             </div>
+            <Generating/>
           </div>
         </div>
       </div>
