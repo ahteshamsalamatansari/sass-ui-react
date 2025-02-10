@@ -52,6 +52,12 @@ const Services = () => {
                   height={750}
                 />
               </div>
+              <div className="relative z-1 max-w-[17rem] ml-auto">
+                <h4 className="h-4 mb-4">Smartest AI</h4>
+                <p className="body-2 mb-[13rem] text-n-3">
+                  Brainwave unlocks the potential of AI-powered applications
+                </p>
+              </div>
             </div>
           </div>
         </div>
