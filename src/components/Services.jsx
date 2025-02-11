@@ -68,9 +68,9 @@ const Services = () => {
                   <p className="body-2 mb-[2rem] text-n-3">The world&apos;s most powerful AI photo and video art generation engine. What will you create?</p>
                   <ul className="flex items-center justify-between">
                     {brainwaveServicesIcons.map((item, index)=>(
-                      <li>
+                      <li key={index} className={`flex items-center justify-center ${index === 2 ? "w-[3rem] h-[3rem] p-0.3 bg-conic-gradient rounded-2xl md:w-[4.5rem] md:h-[4.5rem]" : 'flex w-10 h-10 bg-n-6 md:w-15 md:h-15'  }`}>
                         <div>
-                          <img src={item} alt="" />
+                          <img src={item} />
                         </div>
                       </li>
                     ))}
