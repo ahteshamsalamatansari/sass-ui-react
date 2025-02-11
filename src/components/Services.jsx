@@ -1,4 +1,4 @@
-import { check, service1, service2 } from "../assets";
+import { check, service1, service2, service3 } from "../assets";
 import Heading from "./Heading";
 import Section from "./Section";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
@@ -91,11 +91,14 @@ const Services = () => {
                             : ""
                         }
                       >
-                        <img src={item} />
+                        <img width={24} height={24} alt={item} src={item} />
                       </div>
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div>
+                <img src={service3} alt="" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
