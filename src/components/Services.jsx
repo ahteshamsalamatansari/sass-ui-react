@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Generating from "./Generating";
-import { PhotoChatMessage } from "./design/Services";
+import { PhotoChatMessage, Gradient, VideoBar, VideoChatMessage } from "./design/Services";
 const Services = () => {
   return (
     <Section id="How-to-use">
@@ -56,10 +56,11 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0  to-n-8/90 lg:p-15 ">
                 <h4 className="h-4 mb-4">Photo Editing</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app's photo
+                  Automatically enhance your photos using our AI app&apos;s photo
                   editing feature. Try it now!
                 </p>
               </div>
+              
             </div>
           </div>
         </div>
