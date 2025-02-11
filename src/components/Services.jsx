@@ -60,7 +60,7 @@ const Services = () => {
                   editing feature. Try it now!
                 </p>
               </div>
-              
+              <PhotoChatMessage/>
             </div>
           </div>
         </div>
