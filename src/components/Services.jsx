@@ -64,7 +64,8 @@ const Services = () => {
             </div>
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
                 <div className="py-12 px-4 xl:px-8">
-                  
+                  <h4>Video Generation</h4>
+                  <p>The world&apos;s most powerful AI photo and video art generation engine. What will you create?</p>
                 </div>
             </div>
           </div>
