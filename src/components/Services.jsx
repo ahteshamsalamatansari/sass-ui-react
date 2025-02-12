@@ -97,7 +97,7 @@ const Services = () => {
                   ))}
                 </ul>
               </div>
-              <div>
+              <div className="relative">
                 <img src={service3} width={520} height={400} alt="Scary Robot" className="w-full h-full object-cover" />
                 <VideoChatMessage/>
                 <VideoBar/>
