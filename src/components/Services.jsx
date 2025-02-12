@@ -104,6 +104,7 @@ const Services = () => {
               </div>
             </div>
           </div>
+          <Gradient/> 
         </div>
       </div>
     </Section>
