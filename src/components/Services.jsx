@@ -98,13 +98,19 @@ const Services = () => {
                 </ul>
               </div>
               <div className="relative h-[20rem] bg-n-8 rounded-xl md:h-[25rem]">
-                <img src={service3} width={520} height={400} alt="Scary Robot" className="w-full h-full object-cover" />
-                <VideoChatMessage/>
-                <VideoBar/>
+                <img
+                  src={service3}
+                  width={520}
+                  height={400}
+                  alt="Scary Robot"
+                  className="w-full h-full object-cover"
+                />
+                <VideoChatMessage />
+                <VideoBar />
               </div>
             </div>
           </div>
-          <Gradient/> 
+          <Gradient />
         </div>
       </div>
     </Section>
