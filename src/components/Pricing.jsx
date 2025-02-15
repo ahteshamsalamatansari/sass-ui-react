@@ -1,8 +1,8 @@
-import React from 'react'
+import Section from './Section';
 
 const Pricing = () => {
   return (
-    <div>Pricing</div>
+    <Section>Pricing</Section>
   )
 }
 
