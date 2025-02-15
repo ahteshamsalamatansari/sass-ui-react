@@ -1,5 +1,5 @@
 import { pricing } from "../constants";
-import Button from './Button';
+import Button from "./Button";
 
 const Pricinglist = () => {
   return (
@@ -19,8 +19,12 @@ const Pricinglist = () => {
               </>
             )}
           </div>
-          <Button>
-            {item.price ? 'Get Started' : 'Contact us'}
+          <Button
+            className="w-full mb-6"
+            href={item.price ? "./pricing" : "mailto:ahteshamsalamat@gmail.com"}
+            white={!!item.price}
+          >
+            {item.price ? "Get Started" : "Contact us"}
           </Button>
         </div>
       ))}
