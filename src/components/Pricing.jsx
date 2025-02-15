@@ -28,6 +28,9 @@ const Pricing = () => {
           tag="Get Started with Brainwave"
           title="Pay once use forever"
         />
+        <div className="relative">
+          
+        </div>
       </div>
     </Section>
   );
