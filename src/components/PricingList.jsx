@@ -1,3 +1,4 @@
+import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 
@@ -26,6 +27,14 @@ const Pricinglist = () => {
           >
             {item.price ? "Get Started" : "Contact us"}
           </Button>
+          <ul>
+            {item.features.map((feature, index) => (
+              <li key={index}>
+                <img src={check} width={24} height={24} alt="check" />
+                <p>{feature}</p>
+              </li>
+            ))}
+          </ul>
         </div>
       ))}
     </div>
