@@ -12,11 +12,11 @@ const Pricinglist = () => {
         >
           <h4 className="h4 mb-4">{item.title}</h4>
           <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">{item.description}</p>
-          <div>
+          <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div> $ </div>
-                <div>{item.price}</div>
+                <div className="h3"> $ </div>
+                <div className="text-[5.5rem] leading-none font-bold">{item.price}</div>
               </>
             )}
           </div>
@@ -29,7 +29,7 @@ const Pricinglist = () => {
           </Button>
           <ul>
             {item.features.map((feature, index) => (
-              <li key={index}>
+              <li key={index} className="">
                 <img src={check} width={24} height={24} alt="check" />
                 <p>{feature}</p>
               </li>
