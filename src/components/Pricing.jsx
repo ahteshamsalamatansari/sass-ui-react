@@ -1,4 +1,5 @@
 import Section from "./Section";
+import Heading from "./Heading";
 import { smallSphere, stars } from "../assets";
 
 const Pricing = () => {
@@ -23,6 +24,7 @@ const Pricing = () => {
             />
           </div>
         </div>
+        <Heading/>
       </div>
     </Section>
   );
