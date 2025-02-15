@@ -20,7 +20,7 @@ const Pricinglist = () => {
             )}
           </div>
           <Button>
-
+            {item.price ? 'Get Started' : 'Contact us'}
           </Button>
         </div>
       ))}
