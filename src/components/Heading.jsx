@@ -1,4 +1,4 @@
-
+import Tagline from "./Tagline"
 const Heading = ({classname, title, text , tag}) => {
   return (
     <div className={`${classname} max-w-[50rem] mx-auto mb-12 lg:mb-20`}>
