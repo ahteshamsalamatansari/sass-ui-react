@@ -47,6 +47,8 @@ const Roadmap = () => {
                         alt={item.title}
                       />
                     </div>
+                    <h4>{item.title}</h4>
+                    
                   </div>
                 </div>
               </div>
