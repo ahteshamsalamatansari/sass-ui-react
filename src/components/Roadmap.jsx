@@ -1,10 +1,11 @@
+import Button from "./Button";
 import Section from "./Section";
 import Heading from "./Heading";
 
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import Tagline from "./Tagline";
-import {Gradient} from "./design/Roadmap";
+import { Gradient } from "./design/Roadmap";
 const Roadmap = () => {
   return (
     <Section className="overflow-hidden" id="roadmap">
@@ -61,6 +62,9 @@ const Roadmap = () => {
             );
           })}
           <Gradient />
+        </div>
+        <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+          <Button href="/roadmap">Our roadmap</Button>
         </div>
       </div>
     </Section>
