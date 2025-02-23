@@ -30,7 +30,10 @@ const Roadmap = () => {
                       <div className="">
                         <img
                           src={item.status === "done" ? check2 : loading1}
-                          alt=""
+                          alt="status"
+                          className="mr-2.5"
+                          width={16}
+                          height={16}
                         />
                       </div>
                     </div>
