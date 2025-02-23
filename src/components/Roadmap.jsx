@@ -2,7 +2,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 
 import { roadmap } from "../constants";
-import { grid } from "../assets";
+import { check2, grid, loading1 } from "../assets";
 import Tagline from "./Tagline";
 const Roadmap = () => {
   return (
@@ -27,6 +27,12 @@ const Roadmap = () => {
                   <div className="relative z-1">
                     <div className="flex items-center justify-between">
                       <Tagline>{item.date}</Tagline>
+                      <div className="">
+                        <img
+                          src={item.status === "done" ? check2 : loading1}
+                          alt=""
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
