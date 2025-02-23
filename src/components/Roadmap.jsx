@@ -19,8 +19,8 @@ const Roadmap = () => {
                   item.colorful ? "bg-conic-gradient" : "bg-n-6"
                 }`}
               >
-                <div>
-                  <div>
+                <div className="relative p-8 bg-n-8 rounded-[2rem] overflow-hidden xl:p-15">
+                  <div className="absolute top-0 left-0 max-w-full">
                     <img
                       src={grid}
                       alt="grid"
