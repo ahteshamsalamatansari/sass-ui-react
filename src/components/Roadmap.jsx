@@ -4,6 +4,7 @@ import Heading from "./Heading";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import Tagline from "./Tagline";
+import {Gradient} from "./design/Roadmap";
 const Roadmap = () => {
   return (
     <Section className="overflow-hidden" id="roadmap">
@@ -43,7 +44,7 @@ const Roadmap = () => {
                         <div className="tagline">{status}</div>
                       </div>
                     </div>
-                    <div className="mb-10">
+                    <div className="mb-10 -my-10 -mx-15">
                       <img
                         src={item.imageUrl}
                         className="w-full"
@@ -59,6 +60,7 @@ const Roadmap = () => {
               </div>
             );
           })}
+          <Gradient />
         </div>
       </div>
     </Section>
