@@ -3,6 +3,7 @@ import Heading from "./Heading"
 
 import { roadmap } from "../constants";
 import { LeftLine, RightLine } from "./design/Roadmap";
+import { grid } from "../assets";
 const Roadmap = () => {
   return (
     <Section className="overflow-hidden" id="roadmap">
@@ -12,8 +13,12 @@ const Roadmap = () => {
                 {roadmap.map((item)=>{
                     const status = item.status==='done'?'Done':"In Progress";
                     return(
-                      <div>
-                        
+                      <div key={item.id}>
+                        <div>
+                          <div>
+                            <img src={grid} alt="" />
+                          </div>
+                        </div>
                       </div>
                     )
                 })}
