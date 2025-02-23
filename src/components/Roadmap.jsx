@@ -13,7 +13,12 @@ const Roadmap = () => {
           {roadmap.map((item) => {
             const status = item.status === "done" ? "Done" : "In Progress";
             return (
-              <div key={item.id}>
+              <div
+                key={item.id}
+                className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
+                  item.colorful ? "bg-conic-gradient" : "bg-n-6"
+                }`}
+              >
                 <div>
                   <div>
                     <img
