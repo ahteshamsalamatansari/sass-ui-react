@@ -2,8 +2,8 @@ import Section from "./Section";
 
 const Roadmap = () => {
   return (
-    <Section>
-        
+    <Section className="overflow-hidden" id="roadmap">
+            
     </Section>
   )
 }
