@@ -35,7 +35,17 @@ const Roadmap = () => {
                           width={16}
                           height={16}
                         />
+                        <div className="tagline">{status}</div>
                       </div>
+                    </div>
+                    <div className="mb-10">
+                      <img
+                        src={item.imageUrl}
+                        className="w-full"
+                        width={630}
+                        height={420}
+                        alt={item.title}
+                      />
                     </div>
                   </div>
                 </div>
