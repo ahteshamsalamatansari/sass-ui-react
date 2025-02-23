@@ -1,5 +1,8 @@
 import Section from "./Section";
-import Heading from "./Heading";
+import Heading from "./Heading"
+
+import { roadmap } from "../constants";
+import { LeftLine, RightLine } from "./design/Roadmap";
 const Roadmap = () => {
   return (
     <Section className="overflow-hidden" id="roadmap">
