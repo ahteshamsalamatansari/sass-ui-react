@@ -2,7 +2,6 @@ import Section from "./Section";
 import Heading from "./Heading"
 
 import { roadmap } from "../constants";
-import { LeftLine, RightLine } from "./design/Roadmap";
 import { grid } from "../assets";
 const Roadmap = () => {
   return (
